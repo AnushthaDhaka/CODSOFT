@@ -1,0 +1,39 @@
+body{
+            margin: 0px;
+            padding: 0px;
+            background-color: grey;
+            color: aliceblue;
+            text-align: center;
+            background-image: url(https://i.pinimg.com/736x/55/00/0f/55000f88f39c77a9c15921c4474b1755.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        h1{
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(71, 6, 6);
+            transition:all 0.3s ease-in-out;
+        }
+        h1:hover{
+            transform: scale(1.1);
+            background-color: rgb(207, 88, 189);
+        }
+        input{
+            width: 75px;
+            height: 50px;
+            font-size: x-large;
+            border-radius: 10px;
+            margin: 10px;
+            background-color: beige;
+            color: black;
+            border-style: solid, 10px;
+            border-color: rgb(136, 9, 9);
+            
+
+        }
+        .btn:hover{
+            background-color: rgb(136, 9, 9);
+            color: grey;
+        }
