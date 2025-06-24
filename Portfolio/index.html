@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@436&display=swap');
+</style> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Anushtha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello! I am <span class="color">Anushtha Dhaka</span> 
+                
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+            <img src="./anu2.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <h1>Education</h1>
+            <div class="box">
+            <div class="vertical">
+                <div class="verticaltitle">
+                    B.Tech(2023-2027)
+                    <br>COER University, Roorkee, Uttarakhand
+                </div>
+                <div class="vertical-desc">
+                Currently pursuing a Bachelor of Technology with a focus on software development and computer engineering fundamentals.
+                </div>
+            </div>
+            <div class="vertical">
+                <div class="verticaltitle">
+                Class X(2019-2020) 
+                <br>(CBSE)DDPS,Bijnor,Uttar Pradesh
+                </div>
+                <div class="vertical-desc">
+                Grade- 94%
+                </div>
+            </div>
+            <div class="vertical">
+                <div class="verticaltitle">
+                Class XII(2022-2023)
+                <br>(CBSE)DDPS,Bijnor,Uttar Pradesh
+                </div>
+                <div class="vertical-desc">
+                    Grade- 94%
+                </div>
+            </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+                <h3>Anushtha's Developer Portfolio</h3>
+            </div>
+            <div class="footer-Second">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-instagram"style="color:#ffff;"></i></a>Instagram</li>
+            
+                    <li><a href="#"><i class="fa-brands fa-youtube"style="color:#ffff;"></i></a>Youtube</li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"style="color:#ffff;"></i></a>Linkedin</li>
+                    <li><a href="#"><i class="fa-brands fa-square-github"style="color:#ffff;"></i></a>Github</li>
+                    <li><a href="#"><i class="fa-brands fa-pinterest-p"style="color:#ffff;"></i></a>Pinterest</li>
+                </ul>
+                
+           
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Frontend Developer', 'Passionate Designer','Enthusiastic Learner'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>

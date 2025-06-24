@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7e4c36;
+    
+}
+hr{
+    border: 0;
+    background-color: rgb(90, 18, 42);
+    height: 1.2px;
+    margin: 3px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color:rgb(235, 124, 143);
+    color: black;
+    padding: 0 2rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(157, 14, 61);
+    font-size: 1.05rem;
+     transition: ease-in-out 0.5s;
+    font-weight: bold;
+}
+.left{
+    font-size:1.5rem;
+}
+.firstsection{
+    margin: 23px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.leftsection{
+    width: 50%;
+    margin: 70px 0;
+    padding: 5px;
+    font-size: 3rem;
+}
+.leftsection .btn{
+    padding: 12px;
+    
+    background-color: rgb(196, 72, 92);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(73, 5, 5);
+   
+}
+.leftsection .btn:hover{
+    background-color: #5e230a;
+    transition:  ease-in-out 2s;
+    color: white;
+}
+.leftsection .buttons{
+    padding: 12px;
+}
+.rightsection{
+    width: 50%;
+    
+    
+}
+.rightsection img{
+width: 80%;
+border-radius: 50%;
+}
+.color{
+    color: rgb(235, 124, 143);
+}
+#element{
+    color: rgb(109, 1, 55);
+}
+.secondsection{
+    max-width: 80vw;
+    margin:auto;
+    height: 80vh;
+}
+.secondsection .box{
+background-color: wheat;
+width: 77vw;
+height: 2px;
+margin: 56px 0px;
+display: flex;
+justify-content: center;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+    justify-content: center;
+}
+
+.verticaltitle{
+    position: relative;
+    top: 95px;
+    width: 150px;
+
+}
+.vertical-desc{
+position: relative;
+top: 120px;
+color: gray;
+font-size: 11px;
+    width: 150px;
+}
+footer{
+    display: flex;
+    background-color: #5e230a;
+    height: 23px 122px;
+    margin-top: 100px ;
+    padding: 100px; 
+    justify-content: space-evenly;
+}
+footer h3{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 25px;
+    color: burlywood;
+
+}
+.footer-Second{
+color: white;
+    justify-content: space-between;
+    padding: 2px;
+    gap: 2.5rem;
+    align-items: center;
+    width: 1.5px;
+}
+footer ul{
+    list-style: none;
+}
+  .footer-second  a.i.fa-instagram{
+color: aliceblue;
+}
+.footer>div{
+    width: 123px;
+}
